@@ -8,8 +8,9 @@ ctx.canvas.height = window.innerHeight;
 var x = canvas.width / 2;
 var y = canvas.height - 30;
 
-var dx = 2;
-var dy = -2;
+//ball speed and angle
+var dx = 7;
+var dy = -7;
 
 var mainColor = "#0095DD" //color of ball, paddle, blocks
 
@@ -17,7 +18,7 @@ var ballRadius = 10; // ball radius
 
 // define paddle
 var paddleHeight = 10;
-var paddleWidth = 75;
+var paddleWidth = 150;
 var paddleX = (canvas.width - paddleWidth) / 2;
 
 // moving
